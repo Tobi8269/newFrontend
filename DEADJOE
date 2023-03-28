@@ -1,0 +1,20 @@
+
+*** These modified files were found in JOE when it aborted on Tue May 17 11:02:19 2022
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/stud/0/2058402/.gitconfig
+
+*** File '/home/stud/0/2058402/.gitconfig'
+
+After doing this, you may fix the identity used for this commit with:
+    git commit --amend --reset-author
+ 1 file changed, 3 insertions(+), 3 deletions(-)2058402@csl-student:~/public_html/reactFrontend$ git push https://github.com/Tobi8269/react.git mainUsername for 'https://github.com': Tobi8269Password for 'https://Tobi8269@github.com
+#	name = Tobi Bolarinwa
+#	email = 2058402@csl-student.wlv.ac.uk
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
