@@ -11,12 +11,13 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 	    this.handleDelete = this.handleDelete.bind(this);
-  }// grace is a 
+  }Get rich
 	// 
 	
 // Api is to fetch the data
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
+	
 		.then(res => res.json())
 		.then((data) => {
 		  this.setState({ book: data}) 
