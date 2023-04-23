@@ -11,8 +11,8 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 	    this.handleDelete = this.handleDelete.bind(this);
-  }Get rich
-	// 
+  }
+	// get rich quick
 	
 // Api is to fetch the data
 	componentDidMount() {
