@@ -12,9 +12,9 @@ class App extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
 	    this.handleDelete = this.handleDelete.bind(this);
   }
-	// get rich quick
-	// saving God
-// Api is to fetch the data
+
+// get rich quickly	
+
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
 	
