@@ -13,7 +13,7 @@ class App extends React.Component {
 	    this.handleDelete = this.handleDelete.bind(this);
   }
 
-// goig home
+// going home
 
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
