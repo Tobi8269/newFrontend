@@ -13,7 +13,7 @@ class App extends React.Component {
 	    this.handleDelete = this.handleDelete.bind(this);
   }
 
-// God is good all the time
+// time is running out
 
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
