@@ -13,7 +13,7 @@ class App extends React.Component {
 	    this.handleDelete = this.handleDelete.bind(this);
   }
 
-// the heater
+// the heater is on 
 
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
