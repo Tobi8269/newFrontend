@@ -1,4 +1,4 @@
-// for frontend i have used react as a framework
+// for frontend i have used react as a framework1 
 
 'use strict';
 
@@ -13,7 +13,7 @@ class App extends React.Component {
 	    this.handleDelete = this.handleDelete.bind(this);
   }
 
-// going homefro here
+// going  here
 
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2058402/webproject/public/index.php/BookController/index')
@@ -29,7 +29,7 @@ class App extends React.Component {
  handleChange(event) {
     this.setState({[event.target.name]: event.target.value});
   }
-  // to delete the data from the api
+  // to delete the data from the api 1
   handleDelete(e) {
 
 	let id=e.target.id;		
